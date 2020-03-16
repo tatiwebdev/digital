@@ -1,0 +1,52 @@
+// @media (min-width: 1024px) and (max-width: 1413px) {
+//     .promo {
+//         &::after {
+//             top: -3px;
+//         }
+//     }
+// }
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .container {
+        max-width: 912px;
+    }
+    .promo {
+        height: 768px;
+        &-video {
+            height: 768px;
+            &__media {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &-content {
+            padding-left: 0px;
+            padding-top: 34px;
+            &__title {
+                margin-top: 65px;
+            }
+            &__descr {
+                width: 95%;
+                margin-top: 25px;
+            }
+            &__contacts {
+                margin-top: 26px;
+            }
+        }
+    }
+    .features {
+        padding-left: 0;
+        &__item {
+            flex-basis: 48%;
+            margin-right: 32px;
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+        }
+        &__info {
+            margin-top: 18px;
+        }
+    }
+}
+
+

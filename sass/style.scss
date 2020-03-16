@@ -1,0 +1,25 @@
+@import 'base/fonts';
+
+* {
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+
+@import 'blocks/promo';
+@import 'blocks/features';
+@import 'blocks/directions';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/media';
+
+
+

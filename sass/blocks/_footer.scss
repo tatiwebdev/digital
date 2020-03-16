@@ -1,0 +1,14 @@
+.footer {
+    padding: 35px 0 24px 59px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__socials {
+        margin-right: 40px;
+    }
+    &__social {
+        margin-right: 13px;
+    }
+}

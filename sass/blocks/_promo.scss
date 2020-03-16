@@ -1,0 +1,97 @@
+.promo {
+    max-height: 800px;
+    overflow: hidden;
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, .4);
+    }
+    &-video {
+        position: relative;
+        max-height: 800px;
+        &__media{
+            width: 100%;
+            height: auto;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }  
+    }
+    &-content {
+        width: 100%;
+        height: 100%;
+        padding: 32px 0 24px 59px;
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        &__logo {
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            color: #ffffff;
+        }
+        &__title {
+            margin-top: 60px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 68px;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+        &__descr {
+            margin-top: 18px;
+            display: block;
+            width: 694px;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+        &__contacts {
+            display: block;
+            margin-top: 17px;
+            font-size: 24px;
+            line-height: 29px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            font-weight: 700;
+            text-shadow: 
+                -0   -1px 0   #000000,
+                0   -1px 0   #000000,
+                -0    1px 0   #000000,
+                0    1px 0   #000000,
+                -1px -0   0   #000000,
+                1px -0   0   #000000,
+                -1px  0   0   #000000,
+                1px  0   0   #000000,
+                -1px -1px 0   #000000,
+                1px -1px 0   #000000,
+                -1px  1px 0   #000000,
+                1px  1px 0   #000000,
+                -1px -1px 0   #000000,
+                1px -1px 0   #000000,
+                -1px  1px 0   #000000,
+                1px  1px 0   #000000;
+        }
+        &__down {
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+// .container_promo {
+//     left: 50%;
+//     transform: translateX(2.80%);
+// }
